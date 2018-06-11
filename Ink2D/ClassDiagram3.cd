@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Ink2D.Audio" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAUBAAAAIAAAAAAVAAAAAAA=</HashCode>
+      <FileName>Audio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ink2D.Beam" Collapsed="true">
+    <Position X="2.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACgAAAAAAAAADAAIAAgAAGAAAAUQAIAECEAAAAAIAAY=</HashCode>
+      <FileName>Beam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ink2D.CreditsScreen" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAIAAAAAAAEAIAAAAAAAAUAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>CreditsScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ink2D.Font" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Font.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ink2D.GameController" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAQAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ink2D.GameMode" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAACAAAAACAgIAAAAAEAAAAAAwAAAAIAAEAAAAAA=</HashCode>
+      <FileName>GameMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ink2D.GameModeScreen" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAwAAJAAAAABAAAAAEAD4AAEAAAAAAAAA=</HashCode>
+      <FileName>GameModeScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ink2D.GameScreen" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgYEAsCFQGQBBxAAAxYAQCABCAWEUAiAgEhGhSICIIc=</HashCode>
+      <FileName>GameScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ink2D.Hardware" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAQAFBgABgQAAACAAQAYABAgAAJAWgAQAFBACA=</HashCode>
+      <FileName>Hardware.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ink2D.IA" Collapsed="true">
+    <Position X="0.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAIIAJAAAAAAAAAAAAIAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>IA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ink2D.Image" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAIAgAAAAAAAAAAYAQ=</HashCode>
+      <FileName>Image.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ink2D.Inker" Collapsed="true">
+    <Position X="1.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIBIAhFCAAABNAAAAAQAAAAgACYAAAAAAAAAA=</HashCode>
+      <FileName>Inker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ink2D.Lazer" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAABAACBAAAQAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Lazer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ink2D.Obstacle" Collapsed="true">
+    <Position X="5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAQAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Obstacle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ink2D.PauseScreen" Collapsed="true">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PauseScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ink2D.Player" Collapsed="true">
+    <Position X="2.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ink2D.Polygon" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Polygon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ink2D.PowerUp" Collapsed="true">
+    <Position X="5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAACAAAAAABAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>PowerUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ink2D.Program" Collapsed="true">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ink2D.Projectile" Collapsed="true">
+    <Position X="7.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAgAAIAAIAACBECAAAIBCAAAAAAAAAAAAABAAIA=</HashCode>
+      <FileName>Projectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ink2D.Screen" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAgAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Screen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ink2D.Shape" Collapsed="true">
+    <Position X="3.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ink2D.Sprite" Collapsed="true">
+    <Position X="2.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAQAQAAAAEABABAAAQAAAAAAAAAAYAA=</HashCode>
+      <FileName>Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ink2D.Triangle" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Triangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ink2D.Utilities" Collapsed="true">
+    <Position X="13.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAoAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ink2D.WelcomeScreen" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAEAAAAAAgAAKAAAAA=</HashCode>
+      <FileName>WelcomeScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
