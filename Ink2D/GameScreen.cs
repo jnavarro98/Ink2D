@@ -63,6 +63,8 @@ namespace Ink2D
         internal PowerUp PowerUp { get => powerUp; set => powerUp = value; }
         internal Audio Hit { get => hit; set => hit = value; }
         internal Obstacle Obstacle { get => obstacle; set => obstacle = value; }
+        internal Obstacle Obstacle1 { get => obstacle; set => obstacle = value; }
+        public Random Rnd { get => rnd; set => rnd = value; }
 
         public GameScreen(Hardware hardware, Random rnd, GameMode gameMode) : base(hardware)
         {
@@ -149,7 +151,7 @@ namespace Ink2D
             {
                 if(rnd.Next(0, POWERUP_CHANCE) == 0)
                 {
-                    powerUp = new PowerUp(rnd);
+                    powerUp = new PowerUp(this);
                 }
 
             }
@@ -335,7 +337,15 @@ namespace Ink2D
                     p2.AmmoUsed = 0;
                     CurrentGameState = GameState.player1Turn;
                 }
-                obstacle.Reposition();
+                if(powerUp!=null)
+                {
+                    do
+                    {
+                        obstacle.Reposition();
+                    } while (powerUp.ColidesWithElements(this));
+                }
+                else
+                    obstacle.Reposition();
                 DrawnProjectiles.Clear();
                 currentPlayer.SetBeam();
                 currentPlayer.Beam.Reload(gameMode.AmmoPerTurn);
